@@ -11,7 +11,7 @@ import pandas as pd
 
 # Uses an External Stylesheet
 # Use a css file from your GitHub Pages site 
-external_stylesheets = [https://github.com/Kirti26T/Kirti26T.github.io/blob/master/learn.css']
+external_stylesheets = ['https://github.com/Kirti26T/Kirti26T.github.io/blob/master/learn.css']
 
 # Creates the app to instantiate the content for the Dashboard and use the external_stylesheets
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
